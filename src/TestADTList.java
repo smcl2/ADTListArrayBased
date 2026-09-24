@@ -14,7 +14,14 @@ public class TestADTList {
 		System.out.println("The item as position 2 is: " + list.get(2));
 		System.out.println("The item as position 3 is: " + list.get(3));
 		System.out.println("The item as position 3 is: " + list.get(4));
+		displayList(list);
 
+	}
+	
+	public static void displayList(ArrayBasedList list)
+	{
+		for(int i=1;i<=list.size();i++)
+			System.out.println(list.get(i));
 	}
 
 }
